@@ -1,0 +1,230 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+.title{
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: var(--font-base);
+}
+.description{
+    font-family: var(--font-alt);
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.04em;  
+    line-height: 28px;
+    font-size: 16px;
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 30px;
+}
+
+.description-primary{
+    font-size: 16px;
+}
+
+.description-second{
+    font-family: var(--font-alt);
+    color: grey;
+}
+
+
+.title-primary{
+    color: var(--color-golden);
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../assets/backlogin.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+    
+    
+     
+}
+
+
+.first-content{
+    position: absolute;
+    display: flex;
+    
+    
+}
+
+.first-content .first-column{
+    order: 2;
+}
+
+.second-content{
+    display:flex;
+    position: relative;
+    display: none;
+    
+}
+.first-content .second-column{
+    order: 1;
+}
+
+
+
+.list-social-media{
+    display: flex;
+    list-style-type: none;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    
+}
+
+.form input{
+    height: 45px;
+    border: none;
+    background-color: aliceblue;
+    width: 100%;
+    
+}
+.content{
+    background-color: white;
+    border-radius: 15px;
+    width: 960px;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    
+    
+} 
+
+.first-column{
+    text-align: center;
+    flex: 1 0 auto;
+    z-index: 1;
+    margin-bottom: 80px;
+    
+}
+
+.second-column {
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    left: 62%;
+}
+
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border-width: 0px;
+    margin-top: 1rem;
+}
+
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.btn-primary:hover{
+    background-color: rgb(54, 54, 54);
+    color: var(--color-golden)
+}
+
+.item-social-media{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-top: 6px;
+    padding: 0 1rem;
+    
+}
+
+.item-social-media svg:hover {
+    color: var(--color-golden);
+}
+
+.list-social-media:not(:first-child){
+    margin-left: 10px;
+}
+
+.social-media{
+    margin: 1rem;
+}
+
+.btn-second{
+    background-color: black;
+    border: 1px solid white;
+    
+}
+
+.btn-second:hover{
+    background-color: rgb(192, 192, 192);
+    border: 1px solid black;
+    color: black;
+}
+
+.label-input{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    
+}
+
+.icon-modify{
+    color: grey;
+    padding: 0 5px;
+}
+
+.password {
+    color: rgb(65, 65, 65);
+    font-size: 14px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.password::first-letter{
+    text-transform: capitalize;
+}
+
+
+

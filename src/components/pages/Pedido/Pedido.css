@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.pedido_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../../assets/pedido_back.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.pedido{    
+    width: 1000px;
+    height: 990px;
+    border-radius: 20px;
+    margin-top: 200px;
+
+}
+.pedido_box{
+    display: flex;
+    background-color: rgba(189, 150, 118, 0.726);
+    height: 590px; 
+    font-family: var(--font-alt);
+    color: white;
+    letter-spacing: 0.04em;
+    font-size: 20px;
+    font-weight: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.pedido_content{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid rgb(193,58,43);
+    background-color: rgb(18,18,18); 
+    width: 300px;
+    height: 570px;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding-left: 10px; 
+    border-radius: 20px;
+    
+}
+.pedido_content label{
+    margin: 5px 12px 5px 5px; 
+}
+
+
+
+.pedido_content h1{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.pedido_sushi{
+   margin-left: 32px;
+   
+}
+
+
+.pedido_entrega{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    height: 290px;
+    border-radius: 20px;
+    background-color: rgb(255, 252, 246);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pedido_entrega h1{
+    margin: 0 auto;
+}
+
+
+
+
+
+.pedido_title{
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    
+}
+
+.lista{
+    list-style-type: none;
+}
+
+.entrega_box{
+    font-family: var(--font-alt);
+    letter-spacing: 0.04em;
+    font-size: 20px;
+    font-weight: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(189, 150, 118);
+    background: linear-gradient(180deg, rgba(189,150,118,0.726) 5%, rgba(0,0,0,0.726) 28%);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.label_field{
+    display: flex;
+    align-items: center;
+    margin: 8px;
+    
+}
+
+.pedido_form input{
+    height: 25px;
+    border: none;
+    background-color: aliceblue;
+    width: 100%;
+
+
+}
+
+.label_field_endereço{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    width: 80%;
+    
+}
+
+.label_field_endereço input{
+    height: 25px;
+    border:none;
+    width: 100%;
+    margin-left: 12px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding:10px;
+    font-size: 15px;
+}
+.pedido_dados{
+    display: flex;
+    margin: 8px;
+    height: 30px;
+}
+
+.endereço{
+    display: flex;
+    margin: 20px 10px;
+}
+
+.button{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    padding: 12px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border-width: 0px;
+}
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: var(--color-golden)
+}
+
+.pedido_dados input{
+    margin-right: 10px;
+}
+
+.pedido_entrega_title{
+    text-align: center;
+    margin-top: 15px;
+    
+}
